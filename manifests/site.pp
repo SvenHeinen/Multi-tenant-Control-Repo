@@ -1,3 +1,3 @@
 node default {
-    include different::test
+    class { 'different::test':}
 }
