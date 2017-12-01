@@ -1,3 +1,3 @@
 node default {
-    include common
+    include different
 }
