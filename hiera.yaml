@@ -1,0 +1,13 @@
+---
+version: 5
+
+defaults:  # Used for any hierarchy level that omits these keys.
+  datadir: hieradata
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "Per tenant data"
+    path: "%{tenant}/common.yaml"
+  
+  - name: "Global data"
+    path: "common.yaml"
