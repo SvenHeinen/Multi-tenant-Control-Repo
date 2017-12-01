@@ -10,5 +10,5 @@ hierarchy:
     path: "common.yaml"
     datadir: "/etc/puppetlabse/code/%{environment}/%{tenant}"
   
-  - name: "Global data"
+  - name: "common data"
     path: "common.yaml"
