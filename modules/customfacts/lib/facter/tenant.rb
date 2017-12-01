@@ -1,6 +1,5 @@
 require "facter"
 
-
 Facter.add(:tenant) do
     setcode do
         test = 'Tenant1'
