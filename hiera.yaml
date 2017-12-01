@@ -7,7 +7,8 @@ defaults:  # Used for any hierarchy level that omits these keys.
 
 hierarchy:
   - name: "Per tenant data"
-    path: "%{tenant}/common.yaml"
+    path: "common.yaml"
+    datadir: "/etc/puppetlabse/code/%{environment}/%{tenant}"
   
   - name: "Global data"
     path: "common.yaml"
