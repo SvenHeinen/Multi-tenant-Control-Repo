@@ -1,2 +1,4 @@
 ---
 testdata: 'common'
+puppet_enterprise::master::code_manager::git_settings:
+  private-key: '/etc/puppetlabs/id_rsa'
